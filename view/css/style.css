@@ -1,0 +1,50 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: tahoma;
+}
+
+form{
+	width: 300px;
+	margin: 10px;
+	padding: 10px;
+	background-color: rgb(230, 230, 230);
+	border: 1px solid rgb(200, 200, 200);
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgb(180, 180, 180);
+}
+
+form a, form input, form select{
+	display: block;
+}
+
+form input, form select{
+	width: 200px;
+}
+
+form a{
+	font-size: 14px;
+	padding: 3px 0;
+}
+
+form #citys{
+	display: none;
+}
+
+form #locations{
+	display: none;
+}
+
+form #submit{
+	width: 200px;
+	padding: 6px 0;
+	margin: 10px 0;
+	text-align: center;
+	cursor: pointer;
+	background-color: rgb(100, 100, 180);
+	color: rgb(255, 255, 255);
+}
+
+form #submit:hover{
+	box-shadow: 0 0 10px rgb(100, 100, 180);
+}
