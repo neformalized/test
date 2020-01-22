@@ -1,0 +1,28 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: tahoma;
+	background-color: rgb(210, 210, 210);
+}
+
+#zform{
+	width: 500px;
+	margin: 100px auto;
+	padding: 20px;
+	background-color: rgb(255, 255, 255);
+	border: 1px solid rgb(180, 180, 180);
+	border-radius: 5px;
+	box-shadow: 0 0 15px rgb(150, 150, 150);
+}
+
+#zform a, #zform input, #zform select{
+	display: block;
+}
+
+#zform > form > div{
+	margin: 15px 0;
+}
+
+#zform #region, #zform #territory, #zform #submit{
+	display: none;
+}
